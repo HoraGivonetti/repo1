@@ -1,0 +1,6 @@
+*.log
+*.map
+*.vscode
+*.ai
+node_module/
+fuentes/
