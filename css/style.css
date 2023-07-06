@@ -97,7 +97,7 @@ footer div {
 
 /*nosotros */
 .our-page {
-	background-color: rgb(88,98,131)
+	background-color: white
 }
 main section p {
 	font-size: 1.1em;
@@ -282,8 +282,10 @@ main h1 {
 	height: 100%;
 	object-fit: cover;
 	border-radius: 15px;
- 	border: 2px solid white	;
+ 	border: 2px solid black	;
 }
+
+/*rgb(88,98,131)*/
 
 #galeria-container {
 	display: grid;
@@ -292,7 +294,7 @@ main h1 {
 	grid-auto-rows: 250px;
 	padding: 15px;
 	grid-gap: 15px;
-	background-color: rgb(88,98,131);
+	background-color: white;
 
 }
 .item3 {
