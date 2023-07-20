@@ -37,25 +37,88 @@
 	    </div>
 	  </div>
 	</nav>
-	<main class="form">		
-		<div class="contact-form">
-			<div class="formulario"></div>
-		</div>
-		<div class="contact-info">
+
+		<header id="carouselExample" class="carousel slide">
+	  		<div class="carousel-inner carrousel-contacto">
+	    		<div class="carousel-item active">
+	      			<img src="../img/header-1.webp" class="d-block w-100" alt="header-adidas-1">
+	    		</div>
+	    		<div class="carousel-item">
+	      			<img src="../img/header-2.webp" class="d-block w-100" alt="header-adidas-2">
+	   			</div>
+	    		<div class="carousel-item">
+	      			<img src="../img/header-3.webp" class="d-block w-100" alt="header-adidas-3">
+	    		</div>
+	 
+	  		</div>
+	  		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+	    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    		<span class="visually-hidden">Previous</span>
+	  		</button>
+	  		<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+	    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    		<span class="visually-hidden">Next</span>
+	  		</button>
+		</header>
+
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-12">
+	            <div class="well well-sm">
+	                <form class="form-horizontal" method="post">
+	                    <fieldset>
+	                        <legend class="text-center header">Contactanos</legend>
+
+	                        <div class="form-group d-flex justify-content-center m-3">
+	                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+	                            <div class="col-md-8">
+	                                <input id="fname" name="name" type="text" placeholder="Nombre/s" class="form-control">
+	                            </div>
+	                        </div>
+	                        <div class="form-group d-flex justify-content-center m-3">
+	                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+	                            <div class="col-md-8">
+	                                <input id="lname" name="name" type="text" placeholder="Apellido/s" class="form-control">
+	                            </div>
+	                        </div>
+
+	                        <div class="form-group d-flex justify-content-center m-3">
+	                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+	                            <div class="col-md-8">
+	                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+	                            </div>
+	                        </div>
+
+	                        <div class="form-group d-flex justify-content-center m-3">
+	                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+	                            <div class="col-md-8">
+	                                <input id="phone" name="phone" type="text" placeholder="Telefono" class="form-control">
+	                            </div>
+	                        </div>
+
+	                        <div class="form-group d-flex justify-content-center m-3">
+	                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+	                            <div class="col-md-8">
+	                                <textarea class="form-control" id="message" name="message" placeholder="Desarrolla tu mensaje" rows="7"></textarea>
+	                            </div>
+	                        </div>
+
+	                        <div class="form-group">
+	                            <div class="col-md-12 text-center">
+	                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+	                            </div>
+	                        </div>
+	                    </fieldset>
+	                </form>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+		<div class="icon-info">
 			<a href="#"><img src="../img/phone-icon.png" alt="logo de telefono">+54-249-4444444</a>
-			<a href="#"><img src="../img/envelope-icon.png" class="sobre" alt="logo de sobre" class="envelope">ZapatillasARG@hotmail.com</a>
+			<a href="#"><img src="../img/envelope-icon.png" class="sobre" alt="logo de sobre" class="envelope">AdidasARG@hotmail.com</a>
 			<a href="#"><img src="../img/map-icon.png" alt="logo de mapa">Tandil - Buenos Aires</a>
 		</div>
-		<div class="mb-3">
-			<label for="exampleFormControlInput1" class="form-label">Email address</label>
-			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-		</div>
-		<div class="mb-3">
-		  	<label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-		  	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-		</div>
-	</main>
-	
 
 
 	<footer class="footer">

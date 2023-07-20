@@ -143,6 +143,22 @@ main h1 {
 
 /*formulario de contacto*/
 
+.carrousel-contacto {
+	height: %;
+}
+.icon-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (width < 768px){
+	.icon-info {
+		flex-direction: column;
+	}
+
+}
+
 
 /*formulario de contacto*/
 
